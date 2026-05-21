@@ -620,10 +620,14 @@ body{
     }
 
     .about-visual h2{
-        font-size: 56px;
+    position: relative;
 
-        left: 0;
-        top: -45px;
+    top: 0;
+    left: 0;
+
+    font-size: 56px;
+
+    margin-bottom: 20px;
     }
 
     .about-frame{
