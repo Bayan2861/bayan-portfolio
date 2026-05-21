@@ -630,6 +630,14 @@ body{
     margin-bottom: 20px;
     }
 
+    .about-visual h2{
+    position: static !important;
+
+    font-size: 56px;
+
+    margin-bottom: 20px;
+    }
+
     .about-frame{
         width: 100%;
         max-width: 360px;
