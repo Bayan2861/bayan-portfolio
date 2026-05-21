@@ -611,38 +611,26 @@ body{
         font-size: 15px;
     }
 
-    .about{
-        grid-template-columns: 1fr;
+   .about{
+    grid-template-columns: 1fr;
 
-        gap: 50px;
+    gap: 50px;
 
-        padding: 100px 6%;
+    padding: 100px 6%;
     }
 
     .about-visual h2{
-    position: relative;
+    font-size: 56px;
 
-    top: 0;
     left: 0;
-
-    font-size: 56px;
-
-    margin-bottom: 20px;
-    }
-
-    .about-visual h2{
-    position: static !important;
-
-    font-size: 56px;
-
-    margin-bottom: 20px;
+    top: -45px;
     }
 
     .about-frame{
-        width: 100%;
-        max-width: 360px;
+    width: 100%;
+    max-width: 360px;
 
-        height: 450px;
+    height: 450px;
     }
 
     .projects,
