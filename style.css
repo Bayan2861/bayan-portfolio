@@ -611,7 +611,7 @@ body{
         font-size: 15px;
     }
 
-   .about{
+    .about{
     grid-template-columns: 1fr;
 
     gap: 50px;
@@ -620,18 +620,17 @@ body{
     }
 
     .about-visual h2{
-    position: absolute;
+    font-size: 56px;
 
-    top: -55px;
-    left: -80px;
+    left: 0;
+    top: -45px;
+    }
 
-    z-index: 3;
+    .about-frame{
+    width: 100%;
+    max-width: 360px;
 
-    font-size: clamp(56px, 8vw, 88px);
-
-    line-height: 1;
-
-    white-space: nowrap;
+    height: 450px;
     }
 
     .about-frame{
