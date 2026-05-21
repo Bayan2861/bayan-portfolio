@@ -1,149 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- ================= BASIC PAGE SETUP ================= -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Bayan Alyousef | Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css" />
+
+  <title>Bayan Portfolio</title>
+
+  <!-- ================= GOOGLE FONT ================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ================= FONT AWESOME ICONS ================= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- ================= CSS FILE ================= -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
- <header>
-  <h1>Bayan Alyousef</h1>
-  <p>Information Technology Student (Cybersecurity Track)</p>
-<p>Information Science Graduate</p>
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <a href="#" class="logo">BA.</a>
 
-  <nav>
-    <a href="#about">👩🏻‍💻 About</a>
-    <a href="#education">🎓 Education</a>
-    <a href="#skills">💻 Skills</a>
-    <a href="#projects">📁 Projects</a>
-    <a href="#training">📝 Training</a>
-    <a href="#contact">☎️ Contact</a>
-  </nav>
-</header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <!-- =============== END NAVBAR =============== -->
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am an Information Technology student at Saudi Electronic University with a Bachelor's degree
-      in Information Science from Imam Abdulrahman Bin Faisal University. I am interested in
-      cybersecurity, information management, database concepts, and technical support.
-    </p>
-    <p>
-      I have academic knowledge in Java, HTML, database management, system analysis, and cybersecurity
-      fundamentals. I am currently working on improving my technical skills through personal projects,
-      practical learning, and continuous development.
-    </p>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <p class="small-text">Hello!</p>
+
+      <h1>
+        I'm <span class="typing"></span>
+      </h1>
+
+      <h2>
+        on my way to turning curiosity into something real
+      </h2>
+
+      <p class="description">
+        <i class="fa-solid fa-shield-halved"></i>
+        Cybersecurity student who enjoys building projects
+
+        <br><br>
+
+        <i class="fa-solid fa-code"></i>
+        learning new things
+
+        <br><br>
+
+        <i class="fa-solid fa-laptop-code"></i>
+        and exploring the tech world step by step.
+      </p>
+
+    <div class="buttons">
+    <a href="#projects">View Project →</a>
+    <a href="images/BayanAlyousef_CV.pdf" target="_blank">
+    Resume <i class="fa-solid fa-download"></i>
+    </a>
+    </div>
+      </div>
+
+    </div>
+
   </section>
+  <!-- =============== END HERO SECTION =============== -->
 
-  <section id="education">
-    <h2>Education</h2>
 
-    <h3>Saudi Electronic University</h3>
-    <p>Bachelor's Degree in Information Technology</p>
-    <p>2021 – Present</p>
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="about hidden" id="about">
 
-    <h3>Imam Abdulrahman Bin Faisal University</h3>
-    <p>Bachelor's Degree in Information Science</p>
-    <p>Graduated: 2020</p>
+    <div class="about-content">
+      <p>
+        I’m someone who genuinely enjoys learning new things and exploring the world of technology little by little.
+
+        <br><br>
+
+        Right now I’m focused on cybersecurity building projects and improving my skills step by step. I still have a lot
+        to learn but that’s exactly what makes the journey exciting for me.
+      </p>
+    </div>
+
+    <div class="about-visual">
+      <h2>About Me</h2>
+
+      <div class="about-frame">
+        <img src="images/Ba2.png" alt="Bayan portrait" />
+      </div>
+    </div>
+
   </section>
+  <!-- =============== END ABOUT SECTION =============== -->
 
-  <section id="skills">
+
+  <!-- ================= PROJECTS SECTION ================= -->
+  <section class="projects hidden" id="projects">
+
+    <h2>Featured Projects</h2>
+
+    <div class="project-cards">
+
+      <div class="project-card">
+        <span>01</span>
+        <h3>Cybersecurity Awareness</h3>
+        <p>
+          A simple interactive website that helps users learn basic cybersecurity habits in a friendly way.
+        </p>
+        <a href="#">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <span>02</span>
+        <h3>Library Database</h3>
+        <p>
+          A database project designed to manage books users categories and borrowing records using SQL.
+        </p>
+        <a href="#">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <span>03</span>
+        <h3>UniHub</h3>
+        <p>
+          A web-based project focused on organizing and presenting university project ideas in one place.
+        </p>
+        <a href="#">View Project →</a>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- =============== END PROJECTS SECTION =============== -->
+
+
+  <!-- ================= SKILLS SECTION ================= -->
+  <section class="skills hidden" id="skills">
+
     <h2>Skills</h2>
 
-    <h3>Technical Skills</h3>
-<ul>
-  <li>Cybersecurity Fundamentals</li>
-  <li>Java Basics</li>
-  <li>HTML Basics</li>
-  <li>Database Management</li>
-  <li>Data Organization</li>
-  <li>System Analysis</li>
-  <li>Microsoft Office</li>
-  <li>Documentation</li>
-</ul>
+    <div class="skills-grid">
 
-    <h3>Soft Skills</h3>
-    <ul>
-      <li>Communication</li>
-      <li>Teamwork</li>
-      <li>Problem Solving</li>
-      <li>Attention to Detail</li>
-      <li>Time Management</li>
-      <li>Fast Learning</li>
-    </ul>
+      <div class="skill-item">
+        <i class="fa-brands fa-html5"></i>
+        <p>HTML</p>
+      </div>
+
+      <div class="skill-item">
+        <i class="fa-brands fa-css3-alt"></i>
+        <p>CSS</p>
+      </div>
+
+      <div class="skill-item">
+        <i class="fa-brands fa-js"></i>
+        <p>JavaScript</p>
+      </div>
+
+      <div class="skill-item">
+        <i class="fa-solid fa-database"></i>
+        <p>SQL</p>
+      </div>
+
+      <div class="skill-item">
+        <i class="fa-brands fa-github"></i>
+        <p>GitHub</p>
+      </div>
+
+      <div class="skill-item">
+        <i class="fa-solid fa-shield-halved"></i>
+        <p>Cybersecurity</p>
+      </div>
+
+    </div>
+
   </section>
+  <!-- =============== END SKILLS SECTION =============== -->
 
-  <section id="projects">
-    <h2>Projects</h2>
 
-    <h3>UNIPROJECT HUB</h3>
-    <p>
-      A student project repository platform designed to help students browse, share, and manage
-      academic projects. The project includes user and admin features such as project browsing,
-      comments, content approval, and project management.
+  <!-- ================= CONTACT SECTION ================= -->
+  <section class="contact hidden" id="contact">
+
+    <p class="contact-small">Let's Connect</p>
+
+    <h2>Contact Me</h2>
+
+    <p class="contact-text">
+      Always open to learning, connecting, and exploring new opportunities.
     </p>
 
-    <h3>Personal Portfolio Website</h3>
-    <p>
-      A personal webpage created using HTML and CSS to present my education, technical skills,
-      academic projects, and contact information in a clear and professional format.
-    </p>
+    <div class="contact-links">
 
-    <h3>Library Management Database Project</h3>
-<p>
-  Developed a simple library management database using SQL and SQLite, including
-  tables for books, users, categories, and borrowing records. Applied primary keys,
-  foreign keys, JOIN queries, and data retrieval operations.
-</p>
+      <a href="https://www.linkedin.com/in/bayan-alyousef/" target="_blank" class="linkedin" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+
+      <a href="mailto:bayan2861@hotmail.com" class="email" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+
+      <a href="https://wa.me/966546771446" target="_blank" class="whatsapp" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+
+    </div>
+
   </section>
+  <!-- =============== END CONTACT SECTION =============== -->
 
-  <section id="training">
-    <h2>Training</h2>
 
-    <h3>University Library Trainee</h3>
-    <p>Imam Abdulrahman Bin Faisal University Library</p>
-    <p>
-      Completed university training in an academic library environment. Gained experience in organizing
-      information resources, supporting administrative tasks, handling documentation, and assisting users.
-    </p>
-  </section>
-
-  <section id="courses">
-    <h2>Courses</h2>
-    <ul>
-      <li>Introduction to Cybersecurity – Cisco Networking Academy</li>
-      <li>Cyber Security</li>
-      <li>Digital Marketing Basics</li>
-      <li>Problem Solving in the Workplace</li>
-      <li>Misconduct in Banking and Financial Transactions</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: Bayan2861@hotmail.com</p>
-    <p>Phone: +966 546771446</p>
-    <p>
-  LinkedIn:
-  <a href="https://www.linkedin.com/in/bayan-alyousef/" target="_blank">
-    linkedin.com/in/bayan-alyousef
-  </a>
-</p>
-
-<p>
-  CV:
- <a href="BayanAlyousef_CV.pdf" target="_blank">
-  View My CV
-</a>
-</p>
-  </section>
-
-  <footer>
-    <p>© 2026 Bayan Alyousef</p>
-  </footer>
+  <!-- ================= JAVASCRIPT FILE ================= -->
+  <script src="script.js"></script>
 
 </body>
+
 </html>
