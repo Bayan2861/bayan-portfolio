@@ -588,13 +588,13 @@ body{
         font-size: 13px;
     }
 
-    .hero{
-        padding: 130px 6% 80px;
+   .hero{
+    padding: 130px 6% 80px;
 
-        background-size: 120%;
-        background-position: center bottom;
+    background-size: cover;
+    background-position: center top;
 
-        align-items: flex-start;
+    align-items: flex-start;
     }
 
     .hero-text h1{
