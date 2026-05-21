@@ -620,10 +620,18 @@ body{
     }
 
     .about-visual h2{
-    font-size: 56px;
+    position: absolute;
 
-    left: 0;
-    top: -45px;
+    top: -55px;
+    left: -80px;
+
+    z-index: 3;
+
+    font-size: clamp(56px, 8vw, 88px);
+
+    line-height: 1;
+
+    white-space: nowrap;
     }
 
     .about-frame{
