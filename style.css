@@ -622,7 +622,7 @@ body{
     .about-visual h2{
     font-size: 56px;
 
-    left: 0;
+    left: -20px;
     top: -45px;
     }
 
